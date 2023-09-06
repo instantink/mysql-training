@@ -26,7 +26,7 @@
   <body>
     <iframe id="jsfiddle" width="100%" height="100%" src="//jsfiddle.net/gsguma/p56fwxom/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
     <script type="text/javascript">
-      window.onload = function () {
+      iframe.onload = function() {
         let iframe = document.getElementById("jsfiddle");
         let header = iframe.contentWindow.document.getElementsByTagName("header")[0];
         header.style.display = "none";
